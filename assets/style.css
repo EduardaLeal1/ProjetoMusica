@@ -17,6 +17,7 @@
 
   .container {
     height: 100vh;
+    transform: scale(0.8);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,9 +29,11 @@
     height: auto;
     display: block;
     margin: 0 auto;
-    
+    border-radius: 10px;
+  
   }
   .card-player {
+    border-radius: 50px; /* Define o raio de curvatura das bordas */
     background: #0F6996;
     color: #fff;
     display: flex;
